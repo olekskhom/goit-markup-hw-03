@@ -336,6 +336,11 @@ body {
 /* ===== portfolio ===== */
 
 .portfolio {
+  /* padding-top: 96px;
+  padding-bottom: 120px; */
+}
+
+.portfolio-container {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -367,12 +372,14 @@ body {
 .portfolio-btn:focus {
   color: var(--white-color);
   background-color: var(--subaccent-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-img {
@@ -380,11 +387,10 @@ body {
 }
 
 .portfolio-item-container {
-  padding-top: 32px;
   padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
