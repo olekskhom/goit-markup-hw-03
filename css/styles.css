@@ -27,6 +27,7 @@ p {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  outline: 2px solid red;
 }
 
 .list {
@@ -58,19 +59,27 @@ body {
 /* ===== /основні ===== */
 /* ===== header ===== */
 
-/* .page-header {
-} */
-/* .page-nav {
-} */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.page-nav {
+  width: 456px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .header-logo {
   color: var(--maine-color);
 }
 
-/* .menu {
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
-.menu-item {
+/* .menu-item {
 } */
 
 .menu-link {
@@ -79,6 +88,8 @@ body {
   line-height: 1.5;
   color: var(--maine-color);
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -88,10 +99,12 @@ body {
 .contact {
   font-style: normal;
 }
-/* .contact-list {
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 .contact-item {
-} */
+}
 
 .contact-link {
   color: var(--second-color);
@@ -99,6 +112,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 .contact-link:hover,
 .contact-link:focus {
