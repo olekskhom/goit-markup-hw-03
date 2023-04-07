@@ -336,13 +336,7 @@ body {
 /* ===== portfolio ===== */
 
 .portfolio {
-  /* padding-top: 96px;
-  padding-bottom: 120px; */
-}
-
-.portfolio-container {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 96px 120px;
 }
 
 .portfolio-menu {
