@@ -123,6 +123,10 @@ body {
 /* ===== /header ===== */
 
 /* ===== hero ===== */
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 .hero {
   background-color: var(--maine-color);
 }
@@ -133,6 +137,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  /*  */
+  /* padding: 188px 472px 292px 472px; */
+  margin-bottom: 48px;
+  /* padding-top: 188px; */
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -147,6 +155,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
+  /*  */
+  padding: 16px 32px;
+  margin-left: 480px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -156,6 +167,9 @@ body {
 /* ===== /hero ====== */
 
 /* ===== advantages ===== */
+.advantages-container {
+  padding: 120px 0;
+}
 
 /* .advantages {
 }
@@ -163,18 +177,21 @@ body {
 } */
 /* .advantages-title {
 } */
-/* .advantages-list {
+.advantages-list {
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .advantages-item {
-} */
+}
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--maine-color);
+  margin-bottom: 8px;
 }
 /* .subtitle {
 } */
@@ -187,6 +204,10 @@ body {
 
 /* ===== /advantages ===== */
 /* ===== doing ===== */
+/*  */
+.doing-container {
+  padding-bottom: 120px;
+}
 /* .doing {
 } */
 /* .section-title {
@@ -199,18 +220,27 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--maine-color);
+  margin-bottom: 72px;
 }
-/* .doing-list {
+.doing-list {
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .doing-item {
 }
 .doing-img {
-} */
+  display: block;
+}
 
 /* ===== /doing ===== */
 /* ===== team ===== */
+.team-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team {
   background-color: var(--subwhite-color);
 }
@@ -224,22 +254,30 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--maine-color);
+  /*  */
+  margin-bottom: 72px;
 }
-/* .team-list {
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .list {
-} */
+}
 .team-item {
   background-color: var(--white-color);
 }
-/* .team-img {
-} */
+.team-img {
+  margin-bottom: 32px;
+}
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--maine-color);
+  /*  */
+  margin-bottom: 8px;
+  text-align: center;
 }
 /* .subtitle {
 } */
@@ -247,10 +285,21 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: var(--second-color); */
+  /*  */
+  padding-bottom: 32px;
+  text-align: center;
 }
 /* ===== /team ===== */
 /* ===== footer ===== */
+/*  */
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-logo-link {
+  margin-bottom: 16px;
+}
+
 .footer {
   background-color: var(--maine-color);
 }
@@ -266,6 +315,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--subwhite-color);
+  width: 264px;
 }
 
 /* ===== portfolio ===== */
