@@ -27,7 +27,7 @@ p {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .list {
@@ -103,8 +103,8 @@ body {
   display: flex;
   gap: 40px;
 }
-.contact-item {
-}
+/* .contact-item {
+} */
 
 .contact-link {
   color: var(--second-color);
@@ -181,10 +181,10 @@ body {
   display: flex;
   gap: 24px;
 }
-.list {
+/* .list {
 }
 .advantages-item {
-}
+} */
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -226,10 +226,10 @@ body {
   display: flex;
   gap: 24px;
 }
-.list {
+/* .list {
 }
 .doing-item {
-}
+} */
 .doing-img {
   display: block;
 }
@@ -261,8 +261,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.list {
-}
+
 .team-item {
   background-color: var(--white-color);
 }
